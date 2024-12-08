@@ -2,8 +2,8 @@ import argparse
 from collections import Counter
 
 
-def main(input: str, part: int):
-    with open(input, "r") as f:
+def main(lists: str, part: int):
+    with open(lists, "r") as f:
         list_1 = []
         list_2 = []
         for pair in f:
